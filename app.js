@@ -1,2 +1,3 @@
-var greeting = "Hello";
+let greeting = "Hello";
+
 console.log(greeting);
