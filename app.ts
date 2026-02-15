@@ -24,7 +24,6 @@ name("alyan shahid");
 
 //Objects
 
-// ✅ Method 1: Inline Object Type (for function parameters)
 function createUser({ name, email, isPaid }: { name: string; email: string; isPaid: boolean }) {
     console.log(`User: ${name}, Email: ${email}, Paid: ${isPaid}`);
 }
@@ -32,6 +31,20 @@ function createUser({ name, email, isPaid }: { name: string; email: string; isPa
 createUser({ name: "alyan", email: "alyan@example.com", isPaid: true })
 
 
+//Type Alias
 
-//
+type User = {
+    name: string;
+    email: string;
+    isPaid: boolean;
+}
+
+function createUserWithType(user: User): void {
+    console.log(`User: ${user.name}, Email: ${user.email}, Paid: ${user.isPaid}`);
+}
+
+createUserWithType({ name: "alyan", email: "alyan@example.com", isPaid: true })
+
+
+
 export { }
