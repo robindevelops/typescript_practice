@@ -60,4 +60,15 @@ const users: User[] = [
 
 console.log(users)
 
+//Union Types
+
+let syntax1: string[] | number[] = [1, 2, 3, 4, 5]
+
+let sytanx2: (string | number)[] = [1, 2, 3, 4, "2"]
+
+
+
+
+
+
 export { }
