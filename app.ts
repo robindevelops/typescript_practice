@@ -69,6 +69,25 @@ let sytanx2: (string | number)[] = [1, 2, 3, 4, "2"]
 let user: [string, number, boolean] = ["alyan", 22, true]
 
 
+//emums
+
+const enum Role {
+    admin = "admin",
+    user = "user",
+    guest = "guest"
+}
+
+const employee = {
+    name: "alyan",
+    email: "alyan@example.com",
+    isPaid: true,
+    role: Role.admin
+}
+
+console.log(employee)
+
+
+
 
 
 
