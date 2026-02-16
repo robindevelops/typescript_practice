@@ -1,9 +1,6 @@
 let greeting: string = "Hello"
 
 console.log(greeting);
-
-
-
 //funcation
 
 function name(name: string): string {
@@ -65,6 +62,11 @@ console.log(users)
 let syntax1: string[] | number[] = [1, 2, 3, 4, 5]
 
 let sytanx2: (string | number)[] = [1, 2, 3, 4, "2"]
+
+
+//Tuple
+
+let user: [string, number, boolean] = ["alyan", 22, true]
 
 
 
