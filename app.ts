@@ -87,6 +87,24 @@ const employee = {
 console.log(employee)
 
 
+//interface
+
+interface user1 {
+    name: string;
+    email: string;
+    isPaid: boolean;
+    getcoupen(): number
+}
+
+const user1: user1 = {
+    name: "alyan",
+    email: "alyan@example.com",
+    isPaid: true,
+    getcoupen: () => {
+        return 10;
+    }
+}
+
 
 
 
