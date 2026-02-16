@@ -45,6 +45,19 @@ function createUserWithType(user: User): void {
 
 createUserWithType({ name: "alyan", email: "alyan@example.com", isPaid: true })
 
+// Array
 
+
+const Fruits: string[] = []
+
+const Vegetables: Array<string> = []
+
+const users: User[] = [
+    { name: "alyan", email: "alyan@example.com", isPaid: true },
+    { name: "alyan", email: "alyan@example.com", isPaid: true },
+    { name: "alyan", email: "alyan@example.com", isPaid: true },
+]
+
+console.log(users)
 
 export { }
