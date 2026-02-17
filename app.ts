@@ -107,7 +107,19 @@ const user1: user1 = {
 
 
 
+//classes
 
+class person {
+    name: string;
+    email: string;
+    constructor(name: string, email: string) {
+        this.name = name;
+        this.email = email;
+    }
+}
 
+const person1 = new person("alyan", "alyan@example.com");
+
+console.log(person1)
 
 export { }
