@@ -120,6 +120,14 @@ class person {
 
 const person1 = new person("alyan", "alyan@example.com");
 
-console.log(person1)
+
+//Generic
+
+interface Box<T> {
+    content: T;
+}
+
+const stringBox: Box<string> = { content: "Hello" };
+const numberBox: Box<number> = { content: 100 };
 
 export { }
